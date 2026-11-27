@@ -129,7 +129,7 @@ textarea.cp{width:100%;height:120px;margin-top:10px;font:13px monospace}
 <div id="toast" role="status"></div>
 <script>{
 // 試算表後端網址（Apps Script 網頁應用程式）
-const API='https://script.google.com/macros/s/AKfycbxtidHXJhgBDY6VKxEJrwz4qwfA5_Tpbxc76Y3mSTYhgvIe9LNPPjjICeBJP958NUx2/exec';
+const API='https://script.google.com/macros/s/AKfycbxHFr8d1eF5b--lTJhAEz18Og6Tho4jscDq5cjXB6_nDBWWiOJsYI2nuaROtwsSUVB7/exec';
 const GS=!!(window.google&&google.script&&google.script.run);
 const ONLINE=GS||!!API;
 const call=(fn,...a)=>new Promise((res,rej)=>google.script.run.withSuccessHandler(res).withFailureHandler(rej)[fn](...a));
